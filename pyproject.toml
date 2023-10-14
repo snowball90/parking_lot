@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "parking-lot-app"
+version = "0.1.0"
+description = ""
+authors = ["Tasos89 <t.vogiatzis@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+[tool.poetry.group.dev.dependencies]
+Flask = "^3.0.0"
+pytest = "^7.4.2"
+numpy = "^1.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
